@@ -19,3 +19,16 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+button,
+p {
+  margin-left: 50px;
+}
+
+.inputs {
+  padding-left: 50px;
+}
+
+.inputs p {
+  margin-left: 0;
+}
