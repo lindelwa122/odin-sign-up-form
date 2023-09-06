@@ -100,3 +100,7 @@ input {
 .logo img + span {
   font: 3.5rem "Rye", cursive;
 }
+
+p {
+  width: clamp(45ch, 75%, 75%);
+}
