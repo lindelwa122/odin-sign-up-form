@@ -74,6 +74,7 @@ button:focus {
 
 label {
   display: block;
+  margin-bottom: 2px;
 }
 
 .form-row {
