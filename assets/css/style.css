@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font: clamp(1.3rem, 1.7vw, 1.5rem) "Roboto Condensed", sans-serif;
+}
