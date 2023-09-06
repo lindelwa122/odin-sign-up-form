@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Rye&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -21,7 +22,7 @@ button {
   cursor: pointer;
   margin-top: 30px;
   padding: 13px 50px;
-  transition: all .07;
+  transition: all 0.07;
 }
 
 button:focus {
@@ -66,7 +67,7 @@ input:invalid {
 
 .inputs {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
   padding: clamp(10px, 2vw, 50px) 0 clamp(10px, 2vw, 50px) 50px;
   padding-left: 50px;
 }
@@ -83,7 +84,7 @@ label {
 
 .logo {
   align-items: center;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   padding: 15px 0;
