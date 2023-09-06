@@ -36,6 +36,9 @@
                     id="first-name"
                     name="first-name"
                     placeholder="Thor"
+                    minlength="3"
+                    maxlength="21"
+                    required
                   />
                   <span class="error"></span>
               </div>
@@ -46,6 +49,9 @@
                     id="last-name"
                     name="last-name"
                     placeholder="Odinson"
+                    minlength="3"
+                    maxlength="21"
+                    required
                   />
                   <span class="error"></span>
               </div>
@@ -59,16 +65,20 @@
                     id="email"
                     name="email"
                     placeholder="thor@thunder.com"
+                    required
                   />
                   <span class="error"></span>
               </div>
               <div>
                   <label for="phone-number">Phone Number</label>
                   <input
-                    type="text"
+                    type="tel"
                     id="phone-number"
                     name="phone-number"
                     placeholder="0123456789"
+                    pattern="0\d{9}"
+                    maxlength="10"
+                    required
                   />
                   <span class="error"></span>
               </div>
@@ -81,6 +91,10 @@
                     type="password"
                     id="password"
                     name="password"
+                    minlength="8"
+                    maxlength="16"
+                    pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                    required
                   />
                   <span class="error"></span>
               </div>
@@ -90,6 +104,10 @@
                     type="password"
                     id="confirm-password"
                     name="confirm-password"
+                    minlength="8"
+                    maxlength="16"
+                    pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                    required
                   />
                   <span class="error"></span>
               </div>
