@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Rye&display=swap");
 
 html, body {
   height: 100%;
@@ -17,6 +17,7 @@ body {
   width: 35vw;
   background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
   background-size: cover;
+  color: #fff;
 }
 
 main {
@@ -82,4 +83,20 @@ label {
 
 input {
   padding: 5px 10px;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.logo img {
+  width: 20%;
+}
+
+.logo img + span {
+  font: 3.5rem "Rye", cursive;
 }
