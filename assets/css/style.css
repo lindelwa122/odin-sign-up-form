@@ -94,6 +94,15 @@ input {
   outline: none;
 }
 
+input:focus {
+  border-color: rgb(65, 105, 225);
+  box-shadow: 1px 2px 4px rgba(65, 105, 225, 0.5);
+}
+
+input:invalid {
+  border-color: rgb(255, 0, 0);
+}
+
 .logo {
   background-color: rgba(0, 0, 0, .5);
   display: flex;
