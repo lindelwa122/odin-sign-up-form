@@ -10,6 +10,12 @@ html, body {
 
 body {
   font: clamp(1.3rem, 1.7vw, 1.5rem) "Roboto Condensed", sans-serif;
+  display: flex;
+}
+
+.sidebar {
+  width: 35vw;
+  background: gold;
 }
 
 main {
@@ -18,6 +24,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 65vw;
 }
 
 button,
