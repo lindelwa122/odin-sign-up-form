@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-  font: clamp(1.3rem, 1.7vw, 1.5rem) "Roboto Condensed", sans-serif;
+  font: clamp(1rem, 1.3vw, 1.5rem) "Roboto Condensed", sans-serif;
   display: flex;
 }
 
