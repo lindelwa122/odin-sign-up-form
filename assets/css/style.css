@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font: clamp(1.3rem, 1.7vw, 1.5rem) "Roboto Condensed", sans-serif;
 }
