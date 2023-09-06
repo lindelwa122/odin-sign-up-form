@@ -49,4 +49,10 @@ label {
 
 .form-row {
   display: flex;
+  gap: clamp(10px, 6.5vw, 250px);
+  margin-bottom: 20px;
+}
+
+.form-row:last-child {
+  margin: 0;
 }
