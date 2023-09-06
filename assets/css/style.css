@@ -14,10 +14,10 @@ body {
 }
 
 button {
-  background-color: #596D48;
+  background-color: rgb(89, 109, 72);
   border: none;
   border-radius: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   margin-top: 30px;
   padding: 13px 50px;
@@ -25,7 +25,7 @@ button {
 }
 
 button:focus {
-  box-shadow: inset 1px 2px 6px #fff;
+  box-shadow: inset 1px 2px 6px rgb(255, 255, 255);
 }
 
 button:hover {
@@ -65,7 +65,7 @@ input:invalid {
 }
 
 .inputs {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
   padding: clamp(10px, 2vw, 50px) 0 clamp(10px, 2vw, 50px) 50px;
   padding-left: 50px;
@@ -98,7 +98,7 @@ label {
 }
 
 main {
-  background-color: #f5f5f5;
+  background-color: rgb(245, 245, 245);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -114,7 +114,7 @@ p {
   align-items: center;
   background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
   background-size: cover;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
