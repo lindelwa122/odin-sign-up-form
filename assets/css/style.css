@@ -108,3 +108,7 @@ input {
 p {
   width: clamp(45ch, 75%, 75%);
 }
+
+input {
+  font-size: 90%;
+}
