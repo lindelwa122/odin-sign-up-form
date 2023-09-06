@@ -9,72 +9,32 @@ html, body {
 }
 
 body {
+  display: flex;
   font: clamp(1rem, 1.3vw, 1.5rem) "Roboto Condensed", sans-serif;
-  display: flex;
-}
-
-.sidebar {
-  width: 35vw;
-  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
-  background-size: cover;
-  color: #fff;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-}
-
-main {
-  background-color: #f5f5f5;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 65vw;
-}
-
-button,
-p {
-  margin-left: 50px;
-}
-
-.inputs {
-  padding-left: 50px;
-}
-
-.inputs p {
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.inputs {
-  background-color: #fff;
-  padding: clamp(10px, 2vw, 50px) 0 clamp(10px, 2vw, 50px) 50px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
 }
 
 button {
+  background-color: #596D48;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
   margin-top: 30px;
   padding: 13px 50px;
-  border-radius: 10px;
-  background-color: #596D48;
-  color: #fff;
-  border: none;
-  cursor: pointer;
   transition: all .07;
-}
-
-button:hover {
-  filter: brightness(120%);
 }
 
 button:focus {
   box-shadow: inset 1px 2px 6px #fff;
 }
 
-label {
-  display: block;
-  margin-bottom: 2px;
+button:hover {
+  filter: brightness(120%);
+}
+
+button,
+p {
+  margin-left: 50px;
 }
 
 .form-row {
@@ -88,10 +48,11 @@ label {
 }
 
 input {
-  padding: 5px 10px;
   border: 1px solid rgb(185, 185, 185);
   border-radius: 3px;
+  font-size: 90%;
   outline: none;
+  padding: 5px 10px;
 }
 
 input:focus {
@@ -103,10 +64,27 @@ input:invalid {
   border-color: rgb(255, 0, 0);
 }
 
+.inputs {
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+  padding: clamp(10px, 2vw, 50px) 0 clamp(10px, 2vw, 50px) 50px;
+  padding-left: 50px;
+}
+
+.inputs p {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+}
+
 .logo {
+  align-items: center;
   background-color: rgba(0, 0, 0, .5);
   display: flex;
-  align-items: center;
   justify-content: center;
   padding: 15px 0;
 }
@@ -119,10 +97,26 @@ input:invalid {
   font: 3.5rem "Rye", cursive;
 }
 
+main {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 65vw;
+}
+
 p {
   width: clamp(45ch, 75%, 75%);
 }
 
-input {
-  font-size: 90%;
+.sidebar {
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35vw;
 }
