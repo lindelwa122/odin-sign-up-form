@@ -31,8 +31,10 @@ p {
 
 .inputs p {
   margin-left: 0;
+  margin-top: 0;
 }
 
 .inputs {
   background-color: #fff;
+  padding: clamp(10px, 2vw, 50px) 0 clamp(10px, 2vw, 50px) 50px;
 }
