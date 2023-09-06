@@ -56,3 +56,7 @@ label {
 .form-row:last-child {
   margin: 0;
 }
+
+input {
+  padding: 5px 10px;
+}
