@@ -32,3 +32,7 @@ p {
 .inputs p {
   margin-left: 0;
 }
+
+.inputs {
+  background-color: #fff;
+}
