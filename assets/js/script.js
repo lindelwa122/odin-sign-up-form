@@ -49,3 +49,14 @@ confirmPassword.addEventListener("focus", () => {
 confirmPassword.addEventListener("blur", () => {
   toggleVisibility("#confirm-password + .helper", "hide");
 });
+
+// Handle form submit
+const form = document.querySelector("form");
+form.addEventListener("submit", (event) => {
+  if (password.value !== confirmPassword.value) {
+    toggleVisibility(".error");
+    event.preventDefault();
+  } else {
+    toggleVisibility(".error", "hide");
+  }
+});
