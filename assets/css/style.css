@@ -38,6 +38,17 @@ p {
   margin-left: 50px;
 }
 
+.error {
+  color: rgb(255, 0, 0);
+}
+
+.error,
+.helper {
+  display: block;
+  font-size: clamp(0.7rem, 1vw, 1rem);
+  margin-top: 5px;
+}
+
 .form-row {
   display: flex;
   gap: clamp(10px, 6.5vw, 250px);
@@ -46,6 +57,10 @@ p {
 
 .form-row:last-child {
   margin: 0;
+}
+
+.helper {
+  color: rgb(65, 105, 225);
 }
 
 input {
