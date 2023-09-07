@@ -40,7 +40,6 @@
                     maxlength="21"
                     required
                   />
-                  <span class="error"></span>
               </div>
               <div>
                   <label for="last-name">Last Name</label>
@@ -53,7 +52,6 @@
                     maxlength="21"
                     required
                   />
-                  <span class="error"></span>
               </div>
           </div>
 
@@ -67,7 +65,6 @@
                     placeholder="thor@thunder.com"
                     required
                   />
-                  <span class="error"></span>
               </div>
               <div>
                   <label for="phone-number">Phone Number</label>
@@ -80,7 +77,7 @@
                     maxlength="10"
                     required
                   />
-                  <span class="error"></span>
+                  <span class="helper">Must start with a zero and be 10 digits long (no spaces)</span>
               </div>
           </div>
 
@@ -96,7 +93,18 @@
                     pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
                     required
                   />
-                  <span class="error"></span>
+                  <span class="helper">
+                    Password must contain the following:
+                    <ul>
+                      <li>At least one capital letter</li>
+                      <li>At least one small letter</li>
+                      <li>At least one number</li>
+                      <li>At least one symbol</li>
+                      <li>Must be at least 8 characters long</li>
+                      <li>Must not be more than 16 characters long</li>
+                    </ul>
+                  </span>
+                  <span class="error">* Passwords must match</span>
               </div>
               <div>
                   <label for="confirm-password">Confirm Password</label>
@@ -109,7 +117,7 @@
                     pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
                     required
                   />
-                  <span class="error"></span>
+                  <span class="helper">Must match your password</span>
               </div>
           </div>
         </div>
