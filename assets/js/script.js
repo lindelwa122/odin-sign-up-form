@@ -7,3 +7,45 @@ phoneNumber.addEventListener("input", () => {
     phoneNumber.setCustomValidity("");
   }
 });
+
+const toggleVisibility = (selector, action="show") => {
+  const element = document.querySelector(selector);
+
+  switch (action) {
+    case "show":
+      element.style.height = element.scrollHeight + "px";
+      break;
+
+    case "hide":
+      element.style.height = 0;
+      break;
+  }
+}
+
+phoneNumber.addEventListener("focus", () => {
+  toggleVisibility("#phone-number + .helper");
+});
+
+phoneNumber.addEventListener("blur", () => {
+  toggleVisibility("#phone-number + .helper", "hide");
+});
+
+const password = document.querySelector("#password");
+
+password.addEventListener("focus", () => {
+  toggleVisibility("#password + .helper");
+});
+
+password.addEventListener("blur", () => {
+  toggleVisibility("#password + .helper", "hide");
+});
+
+const confirmPassword = document.querySelector("#confirm-password");
+
+confirmPassword.addEventListener("focus", () => {
+  toggleVisibility("#confirm-password + .helper");
+});
+
+confirmPassword.addEventListener("blur", () => {
+  toggleVisibility("#confirm-password + .helper", "hide");
+});
