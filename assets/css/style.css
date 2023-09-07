@@ -136,3 +136,8 @@ p {
   justify-content: space-around;
   width: 35vw;
 }
+
+ul {
+  padding-left: 15px;
+  max-width: 200px;
+}
