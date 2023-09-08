@@ -82,6 +82,12 @@ phoneNumber.addEventListener("blur", () => {
 });
 ```
 
+## What I learned
+
+* Learned new form constraint like **minlength**, **maxlength**, and **pattern**.
+* Got my hands dirty with **regular expression** and learnt a few tricks.
+* I discovered the power of **querySelectors**. Honestly, I only thought querySelectors can only be used with ID selectors, CLASS selectors, and ELEMENT selectors. Now, I know they can be used with any selectors that work with CSS. I even tried using advanced selectors and it worked perfectly.
+
 ## Credits
 
 * This [project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form) is part of the [Odin Project's curriculum](https://www.theodinproject.com).
