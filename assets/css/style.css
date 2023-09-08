@@ -122,6 +122,10 @@ input:invalid {
   margin-top: 0;
 }
 
+.italic {
+  font-style: italic;
+}
+
 label {
   display: block;
   margin-bottom: 2px;
