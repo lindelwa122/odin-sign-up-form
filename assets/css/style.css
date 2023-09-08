@@ -181,6 +181,10 @@ p {
   }
 }
 
+.sign-up {
+  color: rgb(89, 109, 72);
+}
+
 ul {
   padding-left: 15px;
   max-width: 200px;
