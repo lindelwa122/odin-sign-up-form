@@ -2,6 +2,8 @@
 
 This is a simple sign-up form UI that has client-side form validation.
 
+## [Live Preview](https://lindelwa122.github.io/odin-sign-up-form/)
+
 ![Sign up form screenshot](assets/images/odin-sign-up-form-screenshot.png)
 
 ## How it works
